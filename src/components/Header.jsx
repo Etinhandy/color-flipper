@@ -8,7 +8,7 @@ const Header = ({changeMode}) => {
     <Flex
         justifyContent={"space-between"}
         alignItems={"center"}
-        p={"2rem"}
+        p={"1rem"}
         boxShadow="0 0 5px rgba(0, 0, 0, 0.4)"
         w={"100%"}
         h={"3rem"}

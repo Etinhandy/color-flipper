@@ -24,8 +24,8 @@ const Hex = () => {
       alignItems={"center"}
       h={"100%"}
     >
-      <Text mb={"1rem"}>Background Color: {color} </Text>
-      <Button onClick={handleGenerate} p={"0.5rem"} w={"10rem"}>
+      <Text mb={"1rem"} fontSize={'1.2rem'}>Background Color: {color} </Text>
+      <Button onClick={handleGenerate} p={"0.5rem"} w={"13rem"} h={'3rem'} borderRadius={'10px'}>
         Change Color
       </Button>
     </Flex>

@@ -47,8 +47,8 @@ const SimpleColor = () => {
     alignItems={"center"}
     h={"100%"}
   >
-    <Text mb={'1rem'}>Background Color: {colorSimple} </Text>
-    <Button onClick={handleGenerate} p={"0.5rem"} w={"10rem"}>
+    <Text fontSize={'1.2rem'} mb={'1rem'}>Background Color: {colorSimple} </Text>
+    <Button onClick={handleGenerate} p={"0.5rem"} w={"13rem"} h={'3rem'} borderRadius={'10px'}>
       Change Color
     </Button>
   </Flex>
